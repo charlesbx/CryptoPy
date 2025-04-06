@@ -70,6 +70,18 @@ Déchiffrement AES (mode bloc) :
 ./mypgp -aes -d -b maCle < ciphered > deciphered.txt
 ```
 
+Chiffrement PGP :
+
+```bash
+./mypgp -pgp -c maCle < message.txt > ciphered
+```
+
+Déchiffrement PGP :
+
+```bash
+./mypgp -pgp -d maCle < ciphered > deciphered.txt
+```
+
 ---
 
 ## 📁 Structure du Projet
